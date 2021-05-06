@@ -47,10 +47,6 @@ img {
   display: block;
 }
 
-/* Natural flow and rhythm in articles by default */
-article > * + * {
-  margin-top: 1em;
-}
 
 /* Inherit fonts for inputs and buttons */
 input,
@@ -58,15 +54,5 @@ button,
 textarea,
 select {
   font: inherit;
-}
-
-/* Remove all animations and transitions for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms;
-    animation-iteration-count: 1;
-    transition-duration: 0.01ms;
-    scroll-behavior: auto;
-  }
 }
 
