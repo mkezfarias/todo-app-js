@@ -4,7 +4,7 @@ linters:
     eslint:
         config: './eslint.config'
     csslint:
-        ignore: 'scroll-behavior,box-model,ids,order-alphabetical'
+        ignore: 'known-properties,box-model,ids,order-alphabetical'
 
 files:
     ignore:
