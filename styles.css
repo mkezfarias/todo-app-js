@@ -49,10 +49,55 @@ img {
 
 
 /* Inherit fonts for inputs and buttons */
-input,
 button,
 textarea,
 select {
   font: inherit;
 }
 
+/* colors not included in bootstrap. Hence the !important*/
+a.text-gray {
+  color: rgb(156, 156, 156) !important;
+}
+
+/* custom classes */
+
+.logo-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo-icon{
+    font-size: 1.5rem;
+}
+
+.search-input, input.search-input{
+  font-style: italic;
+  text-align: center;
+  border: none;
+  padding: 25px 5px;
+  height: 2rem !important;
+  background-color: rgb(245, 241, 241);
+  transition: ease-in-out;
+  transition-duration: 600ms;
+}
+
+input:focus, input.form-control:focus {
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  background-color: white;
+  color: rgb(155, 155, 155);
+  transition: ease-in-out;
+  transition-duration: 400ms;
+}
+
+hr {
+  color: rgb(255, 187, 0);
+  border: none;
+}
+
+     
+    
