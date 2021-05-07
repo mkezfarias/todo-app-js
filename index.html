@@ -44,7 +44,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav w-100 d-flex justify-content-end">
+          <ul class="navbar-nav w-100 d-flex justify-content-end todo-list">
             <li class="nav-item">
               <a class="nav-link active text-gray" aria-current="page" href="#"
                 >Change User</a
@@ -114,15 +114,17 @@
             ></i>
           </div>
         </div>
-        <ul class="list-of-todos ">
-          <li class="todo-item py-3  row">
+        <ul class="list-of-todos">
+          <li class="todo-item py-3 row">
             <div class="sidebar d-flex row">
-              <i
+              <div class="col-1">
+                <i
                   role="checkbox"
                   class="select-item-checkbox far fa-square col-1"
                 ></i>
+              </div>
               <div class="todo-text col-10">
-                <div>Todo Item aaaaaaaaaaaaaaaaaaaa1aaaaaaaaaaaaaaaaaaaa1aaaaaaaa aaaaaaaaaaaa1aaaaaaaaaaaaaaaaaaaa1aaaaaaaaaaaaaaaaaaaa1  aaaaaaaaa1aaa aaaaaaaaaaaaaa aaa1aaaaaaaaaaaaaaaaaaaa1aaaaaaaa aaaaaaaaaaaa1aaaaaaaaaaaaaaaaaaaa1aaaaaaaa aaaaaaaaaaaa1aaaaaaaaaaaaaaaaaaaa1</div>
+                <div>Todo Item aaaaaaaaaaaaaa1aaaaaaaa  aaaaaaaaaaaa1aaaaaaaaaaaaaaaaaaaa1</div>
               </div>
               <div class="individual-actions col-1" id="hovered-actions">
                 <i aria-label="Delete Item" class="fas fa-trash-alt icon"></i>
@@ -132,6 +134,12 @@
             </div>
           </li>
         </ul>
+        <div class="new-todo">
+          <form class="d-flex flex-row align-items-center">
+            <input type="text" placeholder="Add a new To-Do"class="border-0 w-100 todo-item new-todo-input"> </input>
+            <button type="submit" class="btn-add-todo btn-outline-secondary btn border-0 mt-2 new-todo-button"><i class="fas fa-plus-circle"></i></button> 
+          </form>
+        </div>
       </div>
     </div>
     <script
@@ -139,5 +147,6 @@
       integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
