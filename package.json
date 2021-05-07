@@ -1,0 +1,22 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "TODO APP FOR VANHACK",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkezmkez/todo-app-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkezmkez/todo-app-js/issues"
+  },
+  "homepage": "https://github.com/mkezmkez/todo-app-js#readme",
+  "devDependencies": {
+    "eslint": "^7.25.0"
+  }
+}
